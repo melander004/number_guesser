@@ -30,7 +30,6 @@ namespace number_guesser
                     break;
                 } 
             }
-            
         }
     }
 }
