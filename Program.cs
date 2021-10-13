@@ -10,7 +10,7 @@ namespace number_guesser
             Random nmr = new Random();
             int tal = nmr.Next(1, 101);
             Console.Write("Gissa ett heltal mellan 1 och 100: ");
-            int försök = 1;
+            int försök = 0;
             while (true)
             {
                 int svar = int.Parse(Console.ReadLine());
@@ -26,6 +26,7 @@ namespace number_guesser
                 }
 
                 else if (svar == tal){
+                    försök++;
                     Console.WriteLine($"Du gissade rätt efter {försök} försök!");
                     break;
                 } 
