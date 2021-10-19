@@ -1,0 +1,13 @@
+Pseudokod
+
+Låt datorn skapa ett slumptal mellan heltalen 1 och 100 som spelaren sedan ska gissa sig fram till.
+
+Skapa en variabel som ökas med 1 för varje gissning som spelaren gör.
+
+Skapa en variabel för det slumpade talet och en annan variabel för heltalet som spelaren matat in.
+
+Mata ut “Gissa ett heltal mellan 1 och 100: “ och låt sedan spelaren skriva in ett heltal. Låt sedan datorn jämföra spelarens och det slumpmässiga talet.
+  
+Om spelarens tal är lägre än det slumpmässiga tal skriv då ut att talet är för lågt, öka antal gissningar med 1 och låt spelaren gissa igen. Om talet är för högt ska det skrivas ut att gissningen är för högt, öka antal gissningar med 1 och låta spelaren gissa igen.
+
+Om spelarens tal är samma som det slumpmässiga talet ska antal gissningar först ökas med 1 och sedan ska det skrivas ut att spelaren gissat rätt och antal gissningar det tog att få fram rätt svar.
